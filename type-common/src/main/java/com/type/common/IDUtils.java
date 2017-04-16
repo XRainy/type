@@ -3,13 +3,9 @@ package com.type.common;
 import java.util.Random;
 
 /**
- * 各种id生成策略
- * <p>Title: IDUtils</p>
- * <p>Description: </p>
- * <p>Company: www.itcast.com</p> 
- * @author	入云龙
- * @date	2015年7月22日下午2:32:10
- * @version 1.0
+ * @Author : dx
+ * @Date : 2017/4/5
+ * Description :ID生成
  */
 public class IDUtils {
 
@@ -30,7 +26,7 @@ public class IDUtils {
 	}
 	
 	/**
-	 * 商品id生成
+	 * id生成
 	 */
 	public static String gengerateId() {
 		//取当前时间的长整形值包含毫秒
