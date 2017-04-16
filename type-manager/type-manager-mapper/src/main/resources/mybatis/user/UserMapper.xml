@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.type.mapper.user.UserDao" >
+    <insert id="insert" parameterType="com.type.pojo.TypeUser">
+        INSERT INTO typeuser (userId,userName,password,record,createTime,email,gender,birthday,state,friendId)
+        VALUES (
+        #{userId,jdbcType=VARCHAR},
+        #{userName,jdbcType=VARCHAR},
+        #{password,jdbcType=VARCHAR},
+        #{record,jdbcType=VARCHAR},
+        #{createTime,jdbcType=TIMESTAMP},
+        #{email,jdbcType=VARCHAR},
+        #{gender,jdbcType=INTEGER},
+        #{birthday,jdbcType=TIMESTAMP},
+        #{state,jdbcType=INTEGER},
+        #{friendId,jdbcType=VARCHAR})
+    </insert>
+    <select id="selectByName" resultType="com.type.pojo.TypeUser" parameterType="string">
+        SELECT userId,userName,password,record,createTime,email,gender,birthday,state,friendId
+        FROM typeuser WHERE userName=#{userName}
+    </select>
+    <select id="selectById" resultType="com.type.pojo.TypeUser" parameterType="string">
+        SELECT userId,userName,password,record,createTime,email,gender,birthday,state,friendId
+        FROM typeuser WHERE userId=#{userId}
+    </select>
+</mapper>

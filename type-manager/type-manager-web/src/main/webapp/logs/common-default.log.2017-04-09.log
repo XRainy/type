@@ -1,0 +1,292 @@
+2017-04-09 00:00:39,465 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 00:00:39,525 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nlq2hxc1r57bms|24aa59ce, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nlq2hxc1r57bms|24aa59ce, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 00:00:39,659 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 00:00:39,915 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 00:00:40,395 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 00:00:40,579 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:00:40,778 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:00:43,432 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:00:43,600 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:00:43,752 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:05:39,033 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 00:05:39,178 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 00:05:39,355 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 00:05:39,546 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 00:05:39,740 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:05:39,932 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:05:41,713 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:05:41,875 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:05:42,017 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:05:43,388 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 00:07:59,768 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:08:03,252 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:08:03,410 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:08:03,538 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:08:04,488 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 00:09:17,722 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:09:18,767 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:09:18,927 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:09:19,062 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:11:03,402 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:11:04,970 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:11:05,146 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:11:05,273 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:11:06,264 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 00:11:54,991 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-09 00:13:04,642 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-09 00:13:04,699 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nlqimpbtl0i88|5ddb499d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nlqimpbtl0i88|5ddb499d, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 00:13:18,352 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:13:18,563 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:13:19,130 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:13:23,749 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:13:23,764 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 00:18:57,479 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 00:18:58,299 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 00:18:58,594 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 00:18:58,897 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 00:18:59,204 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:18:59,480 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:19:08,073 INFO  controller.IndexController - 取得的用户名为：2222223
+2017-04-09 00:19:09,495 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:19:39,801 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 00:19:39,931 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 00:19:40,062 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 00:19:40,374 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 00:19:40,687 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:19:40,975 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:19:44,662 INFO  controller.IndexController - 取得的用户名为：2222225
+2017-04-09 00:19:45,941 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:19:46,173 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:20:10,925 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:21:29,898 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 00:21:30,080 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 00:21:30,231 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 00:21:30,529 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 00:21:30,713 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 00:21:30,865 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:55:00,495 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 00:55:02,966 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 00:55:03,670 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 00:55:03,837 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 00:55:06,299 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 01:15:09,023 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 01:15:09,952 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 01:15:11,977 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 01:15:12,426 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 01:15:12,609 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 01:15:13,595 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 07:12:31,850 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 07:12:34,423 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 07:12:35,402 INFO  controller.IndexController - 取得的用户名为：2222223
+2017-04-09 08:09:24,360 INFO  controller.IndexController - 取得的用户名为：9
+2017-04-09 08:10:51,908 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:10:52,906 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 08:10:53,917 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,2
+2017-04-09 08:10:56,364 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,23
+2017-04-09 08:10:56,548 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,232
+2017-04-09 08:10:57,485 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,23
+2017-04-09 08:10:57,684 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,2
+2017-04-09 08:10:58,308 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 08:10:58,556 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 08:10:58,884 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 08:13:30,905 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:13:31,764 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 08:13:33,171 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 08:13:33,520 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 08:13:33,721 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 08:13:36,155 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:13:37,003 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 08:13:37,236 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 08:13:37,459 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 08:13:39,868 INFO  controller.IndexController - 取得的用户名为：22223
+2017-04-09 08:13:40,531 INFO  controller.IndexController - 取得的用户名为：222234
+2017-04-09 08:13:41,171 INFO  controller.IndexController - 取得的用户名为：2222341
+2017-04-09 08:13:41,293 INFO  controller.IndexController - 取得的用户名为：22223414
+2017-04-09 08:13:41,964 INFO  controller.IndexController - 取得的用户名为：2222341
+2017-04-09 08:13:42,155 INFO  controller.IndexController - 取得的用户名为：222234
+2017-04-09 08:13:42,484 INFO  controller.IndexController - 取得的用户名为：22223
+2017-04-09 08:13:42,700 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 08:13:42,979 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 08:13:44,652 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 08:13:47,200 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1112
+2017-04-09 08:13:48,016 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11123
+2017-04-09 08:13:48,544 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111232
+2017-04-09 08:13:49,048 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11123
+2017-04-09 08:13:49,224 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1112
+2017-04-09 08:13:49,425 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 08:13:49,648 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 08:13:50,000 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 08:21:47,463 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:21:53,107 INFO  controller.IndexController - 取得的用户名为：23
+2017-04-09 08:21:54,777 INFO  controller.IndexController - 取得的用户名为：232
+2017-04-09 08:21:54,952 INFO  controller.IndexController - 取得的用户名为：2322
+2017-04-09 08:21:55,274 INFO  controller.IndexController - 取得的用户名为：23222
+2017-04-09 08:21:55,496 INFO  controller.IndexController - 取得的用户名为：232222
+2017-04-09 08:21:55,679 INFO  controller.IndexController - 取得的用户名为：2322222
+2017-04-09 08:21:58,976 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:21:59,135 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 08:21:59,306 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 08:21:59,488 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 08:21:59,841 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 08:22:00,072 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 08:22:31,903 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 08:22:32,079 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 08:22:32,433 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 08:22:35,368 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:25:36,578 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:25:37,212 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 08:25:37,371 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 08:25:37,572 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 08:25:37,731 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 08:25:37,907 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 08:25:39,365 INFO  controller.IndexController - 取得的用户名为：2222222
+2017-04-09 08:28:52,218 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 08:28:52,325 INFO  controller.IndexController - 取得的用户名为：21
+2017-04-09 08:28:52,486 INFO  controller.IndexController - 取得的用户名为：213
+2017-04-09 08:28:52,862 INFO  controller.IndexController - 取得的用户名为：2132
+2017-04-09 08:28:52,879 INFO  controller.IndexController - 取得的用户名为：21321
+2017-04-09 08:28:53,103 INFO  controller.IndexController - 取得的用户名为：213213
+2017-04-09 10:28:01,599 ERROR servlet.DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 12 in XML document from class path resource [spring/springmvc.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 12; columnNumber: 66; cvc-complex-type.2.4.c: 通配符的匹配很全面, 但无法找到元素 'context:component-scan' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 12; columnNumber: 66; cvc-complex-type.2.4.c: 通配符的匹配很全面, 但无法找到元素 'context:component-scan' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1911)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.emptyElement(XMLSchemaValidator.java:760)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 29 more
+2017-04-09 11:07:05,008 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 11:07:05,065 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nmcqvzx14pgxc1|42c795c1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nmcqvzx14pgxc1|42c795c1, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 11:07:05,228 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 11:07:05,450 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 11:07:05,627 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 11:07:06,470 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:07:07,547 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:07:07,738 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:07:07,880 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:07:09,169 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:08:43,051 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:08:43,158 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:08:43,333 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:08:44,038 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:08:44,056 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:09:27,017 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:09:27,165 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:09:27,307 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:09:27,985 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:09:28,006 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:09:57,521 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:09:57,582 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nmdzcwn1c4mykn|42c795c1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nmdzcwn1c4mykn|42c795c1, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 11:09:57,625 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:09:57,770 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:09:58,672 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:09:58,690 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:10:23,609 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:10:23,663 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nmdzvne1b8yjyp|4ecc3e8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nmdzvne1b8yjyp|4ecc3e8, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 11:10:23,728 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:10:23,880 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:10:24,551 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:10:24,570 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:10:57,400 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:10:57,458 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nme0mfe14vxfsg|5c8adc1f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nme0mfe14vxfsg|5c8adc1f, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 11:10:57,495 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:10:57,631 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:10:58,846 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:10:58,864 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:11:01,101 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:11:05,807 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 11:11:06,233 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 11:11:07,870 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:11:09,263 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:11:09,864 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:11:10,119 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:11:11,630 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:11:27,647 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:11:30,909 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:11:31,033 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:11:31,159 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:11:32,259 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:11:32,276 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 11:12:20,591 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 11:12:20,660 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nme2e2k1v1qzco|7d7bab44, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nme2e2k1v1qzco|7d7bab44, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 11:12:22,965 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 11:12:23,108 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 11:12:23,253 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 11:12:25,101 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 19:51:06,979 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 19:51:07,172 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 19:51:07,364 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 19:51:07,604 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 19:51:07,805 INFO  controller.IndexController - 取得的用户名为：22222
+2017-04-09 19:51:07,972 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 19:51:10,160 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 19:51:10,368 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 19:51:10,536 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 19:51:12,186 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 22:51:53,366 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-09 22:55:33,884 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-09 22:55:37,871 INFO  websocket.WebsocketEndPoint - Here is a message!
+2017-04-09 23:15:12,023 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-09 23:15:12,024 INFO  websocket.WebsocketEndPoint - HTTP.SESSION.ID:EBD0ABB0C85546B8AB258534917587D5
+2017-04-09 23:15:46,095 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-09 23:15:46,095 INFO  websocket.WebsocketEndPoint - HTTP.SESSION.ID:EBD0ABB0C85546B8AB258534917587D5
+2017-04-09 23:29:38,409 INFO  controller.IndexController - 取得的用户名为：2
+2017-04-09 23:29:38,468 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge9gk9nn4eg131qfe1q5|53022134, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge9gk9nn4eg131qfe1q5|53022134, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-09 23:29:38,566 INFO  controller.IndexController - 取得的用户名为：22
+2017-04-09 23:29:38,740 INFO  controller.IndexController - 取得的用户名为：222
+2017-04-09 23:29:38,885 INFO  controller.IndexController - 取得的用户名为：2222
+2017-04-09 23:29:39,653 INFO  controller.IndexController - 取得的用户名为：222222
+2017-04-09 23:29:40,314 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,1
+2017-04-09 23:29:40,675 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,11
+2017-04-09 23:29:40,834 INFO  controller.IndexController - loginVolidate取得的用户名和密码为：222222,111
+2017-04-09 23:29:41,409 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-09 23:30:32,778 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-09 23:30:32,778 INFO  websocket.WebsocketEndPoint - HTTP.SESSION.ID:DFD22693944225159659339AE83CA621
+2017-04-09 23:30:32,778 INFO  websocket.WebsocketEndPoint - userName:222222
