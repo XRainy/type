@@ -58,7 +58,7 @@
                                 与玩家对战
                             </p>
                             <p>
-                                <a class="btn btn-primary" href="/onlineGame">开始游戏</a>
+                                <a class="btn btn-primary" href="/type/onlineGame">开始游戏</a>
                             </p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 单机排行
                             </p>
                             <p>
-                                <a class="btn btn-primary" href="#">开始游戏</a>
+                                <a class="btn btn-primary" href="/typr/selfGame">开始游戏</a>
                             </p>
                         </div>
                     </div>

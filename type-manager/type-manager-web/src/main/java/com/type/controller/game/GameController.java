@@ -13,9 +13,12 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 public class GameController {
-    @RequestMapping("/onlineGame")
+    @RequestMapping("/type/onlineGame")
     public String onlineGame(Model model, HttpServletRequest request){
-        String userNama = request.getParameter("userName");
-        return "forward:/type/onlineType.jsp";
+        return "forward:/WEB-INF/type/onlineType.jsp";
+    }
+    @RequestMapping("/type/selfGame")
+    public String selfGame(Model model, HttpServletRequest request){
+        return "forward:/WEB-INF/type/selfType.jsp";
     }
 }

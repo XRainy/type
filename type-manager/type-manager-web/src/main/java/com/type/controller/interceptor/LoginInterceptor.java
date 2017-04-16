@@ -20,7 +20,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         String userName = (String) httpServletRequest.getSession().getAttribute("userName");
         if(userName == null){
             logger.info("用户未登录需要登录！");
-            httpServletRequest.getRequestDispatcher("/user/login.jsp");
+            httpServletRequest.getRequestDispatcher("/WEB-INF/user/login.jsp").forward(httpServletRequest,httpServletResponse);
             return false;
         }
         logger.info("用户已经登录！");

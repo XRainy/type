@@ -36,7 +36,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index(Model model){
         model.addAttribute("city","china");
-        return "forward:/type/index.jsp";
+        return "forward:/WEB-INF/type/selfType.jsp";
     }
 
     /**
@@ -45,7 +45,7 @@ public class IndexController {
      */
     @RequestMapping("/goToRegister")
     public String goToRegister(){
-        return "forward:/user/register.jsp";
+        return "forward:/WEB-INF/user/register.jsp";
     }
     /**
      * 用户注册
@@ -63,7 +63,7 @@ public class IndexController {
         logger.debug(JsonUtils.getJsonString(typeUser));
         boolean flag = userService.insert(typeUser);
         System.out.println(flag);
-        return "forward:/user/login.jsp";
+        return "forward:/WEB-INF/user/login.jsp";
     }
 
 
@@ -87,7 +87,7 @@ public class IndexController {
             result = true;
         }
         if(result){
-            return "forward:/user/page/homepage.jsp";
+            return "forward:/WEB-INF/user/page/homepage.jsp";
         }
         return "forward:/500.jsp";
     }
