@@ -21,6 +21,8 @@ function createMatch() {
         backgroundSize:"contain no-repeat",
         animation:"cg 0s linear"
         }).appendTo("body");
+        $("#bgsound").attr("autostart","true");
+
 }
 
 //初始化游戏

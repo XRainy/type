@@ -1,119 +1,112 @@
-2017-04-17 00:47:47,520 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 00:48:49,044 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:50:47,901 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 00:51:34,326 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 00:51:41,204 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:55:19,805 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 00:56:13,418 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:56:18,367 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:56:25,384 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:58:18,793 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:59:01,984 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 00:59:01,985 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:00:32,499 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:19:57,345 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 01:20:08,180 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:20:18,527 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:20:22,071 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:21:12,762 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 01:21:17,064 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:24:02,726 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:24:06,737 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yynlx9nx8h4zy1r72ktf|b149fde, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yynlx9nx8h4zy1r72ktf|b149fde, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-17 01:24:09,626 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-17 01:24:28,960 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-17 01:24:40,683 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-17 01:24:44,576 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-17 01:24:46,245 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-17 01:24:46,367 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
-2017-04-17 01:24:46,367 INFO  service.WebSocketService - 用户1就绪。。
-2017-04-17 01:24:57,832 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-17 01:24:57,876 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
-2017-04-17 01:24:57,876 INFO  service.WebSocketService - 用户2就绪。。
-2017-04-17 01:24:57,877 INFO  service.WebSocketService - 匹配结果---UserMatch{userMatchId='149236349787610', letterQueue=[start, I, V, R, L, I, C, B, J, Y, H, U, X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=0}}
-2017-04-17 01:24:57,877 INFO  service.WebSocketService - 匹配中。。。
-2017-04-17 01:24:58,378 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='start', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:24:58,908 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='I', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:24:59,412 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='V', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:24:59,916 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='R', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:00,417 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='L', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:00,663 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"I"}
-2017-04-17 01:25:00,689 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[I, C, B, J, Y, H, U, X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=0}}
-2017-04-17 01:25:00,918 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='I', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:01,172 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"V"}
-2017-04-17 01:25:01,173 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[C, B, J, Y, H, U, X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=1}}
-2017-04-17 01:25:01,418 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='C', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:01,535 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"R"}
-2017-04-17 01:25:01,535 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[B, J, Y, H, U, X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=2}}
-2017-04-17 01:25:01,924 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='B', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:02,429 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='J', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:02,788 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"L"}
-2017-04-17 01:25:02,788 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[Y, H, U, X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=3}}
-2017-04-17 01:25:02,930 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='Y', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:03,434 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='H', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:03,935 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='U', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:04,021 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"I"}
-2017-04-17 01:25:04,022 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=4}}
-2017-04-17 01:25:04,180 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"C"}
-2017-04-17 01:25:04,181 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[X, D, B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=5}}
-2017-04-17 01:25:04,439 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='X', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:04,944 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='D', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:05,120 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"B"}
-2017-04-17 01:25:05,120 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=6}}
-2017-04-17 01:25:05,324 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"J"}
-2017-04-17 01:25:05,324 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[B, Y, X, D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=7}}
-2017-04-17 01:25:05,447 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='B', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:06,504 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"Y"}
-2017-04-17 01:25:06,504 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[D, J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=8}}
-2017-04-17 01:25:06,972 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"H"}
-2017-04-17 01:25:06,972 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[J, Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=9}}
-2017-04-17 01:25:07,458 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='J', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:07,908 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"X"}
-2017-04-17 01:25:07,908 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[Q, V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=10}}
-2017-04-17 01:25:07,962 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='Q', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:08,396 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"D"}
-2017-04-17 01:25:08,397 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[V, M, P, E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=11}}
-2017-04-17 01:25:08,465 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='V', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:08,970 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='M', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:09,470 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='P', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:09,876 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"J"}
-2017-04-17 01:25:09,876 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[E, L, W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=12}}
-2017-04-17 01:25:09,972 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='E', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:10,474 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='L', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:10,477 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"Q"}
-2017-04-17 01:25:10,478 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[W, U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=13}}
-2017-04-17 01:25:10,979 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='W', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:11,188 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"M"}
-2017-04-17 01:25:11,188 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[U, E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=14}}
-2017-04-17 01:25:11,812 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"V"}
-2017-04-17 01:25:11,814 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[E, W, O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=15}}
-2017-04-17 01:25:12,704 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"P"}
-2017-04-17 01:25:12,705 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[O, L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=16}}
-2017-04-17 01:25:12,985 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='O', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:13,055 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"E"}
-2017-04-17 01:25:13,055 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[L, E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=17}}
-2017-04-17 01:25:13,572 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"W"}
-2017-04-17 01:25:13,572 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[E, L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=18}}
-2017-04-17 01:25:13,989 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='E', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:14,340 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"L"}
-2017-04-17 01:25:14,340 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[L, L, V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=19}}
-2017-04-17 01:25:14,490 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='L', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:15,212 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"O"}
-2017-04-17 01:25:15,212 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[V, R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=20}}
-2017-04-17 01:25:15,497 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='V', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:15,620 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"E"}
-2017-04-17 01:25:15,621 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[R, G, H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=21}}
-2017-04-17 01:25:16,000 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='R', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:16,504 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='G', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:16,637 INFO  websocket.WebsocketEndPoint - 接收的客户端信息为：{"state":5,"userMatchId":"149236349787610","letter":"L"}
-2017-04-17 01:25:16,637 INFO  websocket.WebsocketEndPoint - 匹配信息：UserMatch{userMatchId='149236349787610', letterQueue=[H, U, B, G, L, A, X, L, T, G, K, B, Q, Q, end], countLetter=52, userWebSocket1=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=0, uri=/websocket], state=1, score=0}, userWebSocket2=UserWebSocket{userName='dd', session=StandardWebSocketSession[id=1, uri=/websocket], state=1, score=22}}
-2017-04-17 01:25:17,009 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='H', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:19,021 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='L', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:19,523 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='A', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:20,028 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='X', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:21,032 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='T', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:22,034 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='K', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:23,039 INFO  service.WebSocketService - 发送信息：WebSocketData{state=2, letter='Q', score=0, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:23,797 INFO  websocket.WebsocketEndPoint - websocket connection closed......
-2017-04-17 01:25:24,046 INFO  service.WebSocketService - 发送信息：WebSocketData{state=4, letter='end', score=0, opponentScore=23, userMatchId='149236349787610'}
-2017-04-17 01:25:24,047 INFO  service.WebSocketService - 发送信息：WebSocketData{state=4, letter='end', score=23, opponentScore=0, userMatchId='149236349787610'}
-2017-04-17 01:25:24,048 INFO  websocket.WebsocketEndPoint - websocket connection closed......
+2017-04-18 11:08:15,164 INFO  service.WebSocketService - 匹配中。。。
+2017-04-18 11:08:19,110 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 11:08:19,167 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nz8vxcmty3kkw|7bb2842, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nz8vxcmty3kkw|7bb2842, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-18 11:09:28,487 INFO  service.WebSocketService - 匹配中。。。
+2017-04-18 11:09:49,516 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 11:09:49,574 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nz8xhzs15pdmby|463f52b3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nz8xhzs15pdmby|463f52b3, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-18 11:10:00,711 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:10:58,304 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:11:22,588 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:11:37,858 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:12:22,501 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:13:39,926 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:15:43,866 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:16:21,577 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:16:44,929 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:19:15,073 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:20:12,675 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:22:31,192 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:42:40,198 INFO  service.WebSocketService - 匹配中。。。
+2017-04-18 11:42:55,451 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nza46vk3ta6x8|1331036c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nza46vk3ta6x8|1331036c, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-18 11:42:57,951 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:43:04,323 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:43:07,237 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:43:20,956 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:43:22,867 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:44:03,579 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:44:16,703 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:44:21,039 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:44:25,948 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:44:26,355 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:44:29,004 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:44:31,891 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:45:55,114 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:46:37,560 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:46:38,927 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:47:06,736 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:47:07,656 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:51:29,427 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:51:30,813 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:51:34,876 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:51:35,849 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:51:37,372 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:51:50,987 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:51:52,049 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 11:55:15,044 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 11:55:17,591 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:11:23,412 INFO  service.WebSocketService - 匹配中。。。
+2017-04-18 12:11:28,300 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:11:28,358 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nzb54ifyrdrgt|42c795c1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nzb54ifyrdrgt|42c795c1, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-18 12:11:30,348 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:13:42,830 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:13:43,856 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:15:20,119 INFO  service.WebSocketService - 匹配中。。。
+2017-04-18 12:15:33,505 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:15:33,560 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nzba739dg1evl|6666b3ac, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nzba739dg1evl|6666b3ac, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-18 12:15:36,173 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:19:09,981 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:19:49,770 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:20:32,350 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:20:34,539 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:21:40,386 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:21:41,918 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 12:52:36,857 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
+2017-04-18 12:52:40,848 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
+2017-04-18 12:52:42,184 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
+2017-04-18 12:52:43,712 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
+2017-04-18 12:59:41,436 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 12:59:43,673 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 13:00:08,846 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 13:00:10,452 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 13:00:41,142 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 13:00:42,717 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:34:50,792 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:34:55,315 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:37:15,849 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:37:29,109 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:38:28,826 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:39:44,416 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:39:47,681 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:40:23,386 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:40:24,948 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:40:27,158 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:40:59,352 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:41:00,898 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:41:11,581 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:41:13,783 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:41:15,976 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:41:59,593 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:02,551 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:06,305 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:08,363 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:11,274 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:26,633 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:30,396 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:44,671 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:44,767 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:44,768 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:44,837 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
+2017-04-18 16:42:44,837 INFO  service.WebSocketService - 用户1就绪。。
+2017-04-18 16:42:57,172 INFO  websocket.WebsocketEndPoint - websocket connection closed......
+2017-04-18 16:42:58,794 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:58,849 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:58,879 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:42:58,890 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:43:06,322 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:43:17,168 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 16:43:19,913 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 16:43:31,427 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 16:43:33,123 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-18 16:43:48,110 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
+2017-04-18 16:43:50,481 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-18 16:43:52,014 INFO  interceptor.LoginInterceptor - 用户已经登录！

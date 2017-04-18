@@ -36,7 +36,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index(Model model){
         model.addAttribute("city","china");
-        return "forward:/WEB-INF/type/selfType.jsp";
+        return "forward:/WEB-INF/user/login.jsp";
     }
 
     /**

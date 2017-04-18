@@ -1,7 +1,9 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.type.pojo.Record;
+import org.joda.time.DateTime;
 
+import java.util.Date;
 import java.util.Random;
 
 /**
@@ -23,6 +25,10 @@ public class Test {
             char ch = (char) (random.nextInt(26)+65);
             System.out.print(""+ch);
         }
-
+    }
+    @org.junit.Test
+    public void testDate(){
+        DateTime dateTime = new DateTime(new Date().getTime());
+        System.out.print(dateTime);
     }
 }

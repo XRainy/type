@@ -51,12 +51,6 @@
 <body>
 <div class="screen1">
 </div>
-<div class="stop1">暂停游戏</div>
-<div class="xiabian"></div>
-
-<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
-    <p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
-    <p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
-</div>
+<embed src="/static/sound/bgsound.mp3" autostart="false" loop="-1" controls="ControlPanel" width="100" height="100" id="bgsound">
 </body>
 </html>

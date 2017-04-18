@@ -19,8 +19,17 @@ public class TypeUser {
     private int gender;
     @DateTimeFormat(pattern = "yyyy/MM/dd")
     private Date birthday;
+    private String stringBirthday;
     private int state;
     private String friendId;
+
+    public String getStringBirthday() {
+        return stringBirthday;
+    }
+
+    public void setStringBirthday(String stringBirthday) {
+        this.stringBirthday = stringBirthday;
+    }
 
     public String getUserId() {
         return userId;
