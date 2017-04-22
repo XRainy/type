@@ -76,7 +76,11 @@
                 <div class="tab-pane fade" id="ios">
                     <div class="row">
                         <div class="col-md-1 col-md-offset-5">
-                            <img src="http://pinegrow.com/placeholders/img6.jpg" alt="" class="img-circle" style="width:110px;margin-top:30px">
+                            <img id="headSculpture" data-toggle="tooltip" data-placement="right" title="点击更换" src="http://pinegrow.com/placeholders/img6.jpg" alt="" class="img-circle" style="width:110px;margin-top:30px">
+                            <div id="imgUpload" style="display: none">
+                                <p><input type="file" id="file1" name="file" /></p>
+                                <input type="button" id="uploadButton" value="上传" class ="btn"/>
+                            </div>
                         </div>
                     </div>
                     <div class="container">
@@ -87,11 +91,12 @@
                                     <div class="page-header">
                                         <h2>个人信息</h2>
                                     </div>
-                                    <form id="defaultForm" method="post" class="form-horizontal" action="/register"
+                                    <form id="updateForm" method="post" class="form-horizontal" action="/user/page/getSelfInformation"
                                           data-bv-message="This value is not valid"
                                           data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
                                           data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
                                           data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+                                        <input type="hidden" name="userId" id="userId">
                                         <div class="form-group">
                                             <label class="col-lg-3 control-label">用户名</label>
                                             <div class="col-lg-5">
@@ -141,7 +146,7 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="col-lg-9 col-lg-offset-3">
-                                                <button type="submit" class="btn btn-primary">修改</button>
+                                                <button type="submit" class="btn btn-primary" id="update">修改</button>
                                             </div>
                                         </div>
                                     </form>
@@ -166,29 +171,87 @@
 <script src="/static/bootstrap/js/jquery-1.10.2.min.js"></script>
 <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 <script src="/static/bootstrap/js/bootstrapValidator.js"></script>
+<script src="/static/js/ajaxfileupload.js"></script>
 <script type="text/javascript">
+    //表单验证
     $(document).ready(function() {
-        $('#defaultForm').bootstrapValidator();
+        $('#updateForm').bootstrapValidator();
     });
+    //头像悬停提示
+    $(function () { $("[data-toggle='tooltip']").tooltip(); });
 </script>
 <script type="text/javascript">
     $(document).ready(function() {
+        //请求显示信息
         $('#selfInformation').click(function () {
             $.ajax({
                 url: "/user/page/getSelfInformation",
                 success: function(data){
                     var typeUser = $.parseJSON(data);
+                    $("#userId").val(typeUser.userId);
                     $("#userName").val(typeUser.userName);
                     $("#userName").attr("disabled","true");
                     $("#email").val(typeUser.email);
                     $("input:radio[value='"+typeUser.gender+"']").attr('checked','true');
                     $("#birthday").val(typeUser.stringBirthday);
+                    $("#update").attr("disabled","true");
+                    $("#headSculpture").attr("src",typeUser.img);
                 }
             });
         });
+        //提交修改信息
+        $("#update").click(function () {
+            $.ajax({
+                url:"/user/page/updateById",
+                data:$("#updateForm").serialize(),
+                type:"POST",
+                beforeSend:function(){
+                    $("#update").attr("disabled","true");
+                },
+                success:function(data){
+                }
+            });
+        });
+        $("#headSculpture").click(function(){
+            $("#imgUpload").css("display","")
+        });
     });
 </script>
-<script>
+<script type="text/javascript">
+    $(function () {
+        $("#uploadButton").click(function () {
+            ajaxFileUpload();
+        })
+    })
+    //文件上传
+    function ajaxFileUpload() {
+        $.ajaxFileUpload
+        (
+                {
+                    url: '/user/page/imgUpload', //用于文件上传的服务器端请求地址
+                    secureuri: false, //是否需要安全协议，一般设置为false
+                    fileElementId: 'file1', //文件上传域的ID
+                    dataType: 'json', //返回值类型 一般设置为json
+                    success: function (data, status)  //服务器成功响应处理函数
+                    {
+                        console.log(data);
 
+                        $("#headSculpture").attr("src", data.imgUrl);
+                        if (typeof (data.error) != 'undefined') {
+                            if (data.error != '') {
+                                alert(data.error);
+                            } else {
+                                alert(data.msg);
+                            }
+                        }
+                    },
+                    error: function (data, status, e)//服务器响应失败处理函数
+                    {
+                        alert(e);
+                    }
+                }
+        )
+        return false;
+    }
 </script>
 </html>

@@ -8,6 +8,7 @@ import com.type.pojo.TypeUser;
  * Description :
  */
 public interface UserDao {
+
     /**
      *
      * @param user
@@ -28,4 +29,15 @@ public interface UserDao {
      * @return
      */
     public TypeUser selectByName(String name);
+
+    /**
+     *
+     * @param user
+     */
+    public void updateById(TypeUser user);
+
+    /**
+     *
+     */
+    public void updateImg(TypeUser typeUser);
 }

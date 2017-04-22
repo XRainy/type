@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -21,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 @RequestMapping("/user/page")
 public class HomePageController {
-    private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
+    private static final Logger logger = LoggerFactory.getLogger(HomePageController.class);
 
     @Resource
     UserService userService;
@@ -43,5 +44,35 @@ public class HomePageController {
             logger.error(e.getMessage());
         }
         return JsonUtils.getJsonString(typeUser);
+    }
+
+    @RequestMapping("/updateById")
+    @ResponseBody
+    public String updateById(Model model,TypeUser typeUser){
+        if(userService.updateById(typeUser)){
+            return "1";
+        }
+        return "2";
+    }
+    @RequestMapping("/imgUpload")
+    @ResponseBody
+    public String imgUpload(Model model, MultipartFile file, HttpServletRequest request){
+        String basePath = request.getSession().getServletContext().getRealPath("/");
+        TypeUser typeUser = new TypeUser();
+        logger.info("webapp路径："+basePath);
+        try{
+            String imgUrl = userService.uploadFile(file,basePath);
+            logger.info("相对路径为："+imgUrl);
+            typeUser.setUserName((String) request.getSession().getAttribute("userName"));
+            typeUser.setImg(imgUrl);
+            userService.updateImg(typeUser);
+            model.addAttribute("imgUrl",imgUrl);
+        }catch (Exception e){
+            logger.error("头像上传失败："+e.getMessage());
+            model.addAttribute("error","上传失败！");
+        }
+        logger.info("图片返回值："+JsonUtils.getJsonString(model));
+        userService.uploadFile(file,basePath);
+        return JsonUtils.getJsonString(model);
     }
 }

@@ -1,6 +1,7 @@
 package com.type.service.user;
 
 import com.type.pojo.TypeUser;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @Author : dx
@@ -21,5 +22,24 @@ public interface UserService {
      * @return
      */
     public TypeUser selectByName(String name);
+
+    /**
+     * 修改信息
+     * @param user
+     * @return
+     */
+    public boolean updateById(TypeUser user);
+
+    /**
+     * 文件上传
+     * @param uploadFile
+     * @return
+     */
+    public String uploadFile(MultipartFile uploadFile,String basePath);
+
+    /**
+     * 修改图片
+     */
+    public boolean updateImg(TypeUser typeUser);
 
 }

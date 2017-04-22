@@ -22,6 +22,15 @@ public class TypeUser {
     private String stringBirthday;
     private int state;
     private String friendId;
+    private String img;
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
 
     public String getStringBirthday() {
         return stringBirthday;
