@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.type.mapper.user.UserDao" >
     <insert id="insert" parameterType="com.type.pojo.TypeUser">
-        INSERT INTO typeuser (userId,userName,password,record,createTime,email,gender,birthday,state,friendId)
+        INSERT INTO typeuser (userId,userName,password,record,createTime,email,gender,birthday,state,friendId,img)
         VALUES (
         #{userId,jdbcType=VARCHAR},
         #{userName,jdbcType=VARCHAR},

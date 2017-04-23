@@ -69,3 +69,14 @@
 2017-04-16 17:24:19,187 ERROR common.JsonUtils - No serializer found for class org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: com.type.controller.game.websocket.domain.UserMatch["userWebSocket1"]->com.type.controller.game.websocket.domain.UserWebSocket["session"]->org.springframework.web.socket.adapter.standard.StandardWebSocketSession["nativeSession"]->org.apache.tomcat.websocket.WsSession["local"])
 2017-04-16 17:24:20,282 ERROR common.JsonUtils - No serializer found for class org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: com.type.controller.game.websocket.domain.UserMatch["userWebSocket1"]->com.type.controller.game.websocket.domain.UserWebSocket["session"]->org.springframework.web.socket.adapter.standard.StandardWebSocketSession["nativeSession"]->org.apache.tomcat.websocket.WsSession["local"])
 2017-04-16 17:24:31,446 ERROR common.JsonUtils - No serializer found for class org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) ) (through reference chain: com.type.controller.game.websocket.domain.UserMatch["userWebSocket1"]->com.type.controller.game.websocket.domain.UserWebSocket["session"]->org.springframework.web.socket.adapter.standard.StandardWebSocketSession["nativeSession"]->org.apache.tomcat.websocket.WsSession["local"])
+2017-04-23 08:43:51,619 ERROR impl.UserServiceImpl - 
+### Error updating database.  Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+### The error may involve com.type.mapper.user.UserDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO typeuser (userId,userName,password,record,createTime,email,gender,birthday,state,friendId)         VALUES (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?)
+### Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+; bad SQL grammar []; nested exception is java.sql.SQLException: Column count doesn't match value count at row 1
+2017-04-23 08:49:26,535 ERROR controller.HomePageController - 头像上传失败：null
+2017-04-23 08:50:46,243 ERROR controller.HomePageController - 头像上传失败：null
+2017-04-23 08:51:02,046 ERROR controller.HomePageController - 头像上传失败：null
+2017-04-23 08:51:16,737 ERROR controller.HomePageController - 头像上传失败：null

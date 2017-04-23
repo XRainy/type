@@ -49,8 +49,10 @@ public class UserServiceImpl implements UserService{
     public TypeUser selectByName(String name) {
         TypeUser typeUser = null;
         typeUser = userDao.selectByName(name);
-        DateTime dateTime = new DateTime(typeUser.getBirthday().getTime());
-        typeUser.setStringBirthday(dateTime.toString("yyyy/MM/dd"));
+        if(null != typeUser && null != typeUser.getBirthday()){
+            DateTime dateTime = new DateTime(typeUser.getBirthday().getTime());
+            typeUser.setStringBirthday(dateTime.toString("yyyy/MM/dd"));
+        }
         return typeUser;
 
     }

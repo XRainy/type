@@ -76,11 +76,8 @@
                 <div class="tab-pane fade" id="ios">
                     <div class="row">
                         <div class="col-md-1 col-md-offset-5">
-                            <img id="headSculpture" data-toggle="tooltip" data-placement="right" title="点击更换" src="http://pinegrow.com/placeholders/img6.jpg" alt="" class="img-circle" style="width:110px;margin-top:30px">
-                            <div id="imgUpload" style="display: none">
-                                <p><input type="file" id="file1" name="file" /></p>
-                                <input type="button" id="uploadButton" value="上传" class ="btn"/>
-                            </div>
+                            <img id="headSculpture" data-toggle="tooltip" data-placement="right" title="点击更换" src="/static/img/timg.jpg" alt="" class="img-circle" style="width:110px;height:110px;margin-top:30px" onclick="$('#previewImg').click();">
+                            <p><input type="file" id="previewImg" name="file" style="display: none" onchange="ajaxFileUpload()"/></p>
                         </div>
                     </div>
                     <div class="container">
@@ -195,7 +192,10 @@
                     $("input:radio[value='"+typeUser.gender+"']").attr('checked','true');
                     $("#birthday").val(typeUser.stringBirthday);
                     $("#update").attr("disabled","true");
-                    $("#headSculpture").attr("src",typeUser.img);
+                    console.log(typeUser.img);
+                    if(typeUser.img!="" && typeUser.img!=null){
+                        $("#headSculpture").attr("src",typeUser.img);
+                    }
                 }
             });
         });
@@ -230,7 +230,7 @@
                 {
                     url: '/user/page/imgUpload', //用于文件上传的服务器端请求地址
                     secureuri: false, //是否需要安全协议，一般设置为false
-                    fileElementId: 'file1', //文件上传域的ID
+                    fileElementId: 'previewImg', //文件上传域的ID
                     dataType: 'json', //返回值类型 一般设置为json
                     success: function (data, status)  //服务器成功响应处理函数
                     {
@@ -247,7 +247,7 @@
                     },
                     error: function (data, status, e)//服务器响应失败处理函数
                     {
-                        alert(e);
+                        alert("上传失败，您并没有选择图片！");
                     }
                 }
         )
