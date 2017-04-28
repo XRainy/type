@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.type.mapper.user.OnlineRecordDao" >
+    <insert id="insert" parameterType="com.type.pojo.OnlineRecord">
+        INSERT INTO OnlineRecord (onlineRecordId,userId1,userId2,userScore1,userScore2,userName1,userName2)
+        VALUES (
+        #{onlineRecordId,jdbcType=VARCHAR},
+        #{userId1,jdbcType=VARCHAR},
+        #{userId2,jdbcType=VARCHAR},
+        #{userScore1,jdbcType=INTEGER},
+        #{userScore2,jdbcType=INTEGER},
+        #{userName1,jdbcType=VARCHAR},
+        #{userName2,jdbcType=VARCHAR})
+    </insert>
+    <select id="selectByUserId" resultType="com.type.pojo.OnlineRecord" parameterType="string">
+        SELECT * FROM OnlineRecord WHERE userId1=#{userId} OR userId2=#{userId}
+    </select>
+
+</mapper>

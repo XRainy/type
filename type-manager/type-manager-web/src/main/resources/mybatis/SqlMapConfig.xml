@@ -6,5 +6,11 @@
     <properties>
         <property name="dialect" value="MYSQL" />
     </properties>
+    <!--分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql" />
+        </plugin>
+    </plugins>
 
 </configuration>

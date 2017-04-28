@@ -10,6 +10,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/pagination/paging.css">
+
     <title>HomePage</title>
 </head>
 <body>
@@ -22,15 +24,15 @@
                         游戏
                     </a>
                 </li>
-                <li><a href="#ios" data-toggle="tab" id="selfInformation">个人信息</a></li>
+                <li><a href="#information" data-toggle="tab" id="selfInformation">个人信息</a></li>
                 <li class="dropdown">
                     <a href="#" id="myTabDrop1" class="dropdown-toggle"
                        data-toggle="dropdown">比赛记录
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
-                        <li><a href="#onlineGame" tabindex="-1" data-toggle="tab">对战</a></li>
-                        <li><a href="#selfGame" tabindex="-1" data-toggle="tab">个人</a></li>
+                        <li><a href="#onlineGame" tabindex="-1" data-toggle="tab" id="onlineGameButton">对战</a></li>
+                        <li><a href="#selfGame" tabindex="-1" data-toggle="tab" id="selfGameButton">个人</a></li>
                     </ul>
                 </li>
             </ul>
@@ -73,7 +75,7 @@
 
                     </div>
                 </div>
-                <div class="tab-pane fade" id="ios">
+                <div class="tab-pane fade" id="information">
                     <div class="row">
                         <div class="col-md-1 col-md-offset-5">
                             <img id="headSculpture" data-toggle="tooltip" data-placement="right" title="点击更换" src="/static/img/timg.jpg" alt="" class="img-circle" style="width:110px;height:110px;margin-top:30px" onclick="$('#previewImg').click();">
@@ -154,7 +156,8 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="onlineGame">
-                    <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+                    <div id="list"></div>
+                    <div id="pageToolbar" name="12"></div>
                 </div>
                 <div class="tab-pane fade" id="selfGame">
                     <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
@@ -169,6 +172,9 @@
 <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 <script src="/static/bootstrap/js/bootstrapValidator.js"></script>
 <script src="/static/js/ajaxfileupload.js"></script>
+<script src="/static/pagination/query.js"></script>
+<script src="/static/pagination/paging.js"></script>
+
 <script type="text/javascript">
     //表单验证
     $(document).ready(function() {
@@ -176,6 +182,47 @@
     });
     //头像悬停提示
     $(function () { $("[data-toggle='tooltip']").tooltip(); });
+</script>
+<script>
+    $(function () {
+        var d;
+        $.ajax({
+            url:"/user/page/onlineRecord",
+            type:"POST",
+            dataType:"json",
+            data:{size:5,page:1},
+            success:function (data) {
+                $("#list").text(JSON.stringify(data));
+                d = $('#pageToolbar').Paging({
+                    callback:function (page,size,count) {
+                        console.log("page:"+page);
+                        console.log("size:"+size);
+                        console.log("count:"+count);
+                        console.log("===>>>"+JSON.stringify(d[0]));
+                        getPageInfo(page,size,count);
+                    },
+                    pagesize: data.pageSize,
+                    count: data.total,
+                    toolbar: true,
+                });
+            }
+        })
+
+       // alert($('#pageToolbar'));
+
+    });
+    function getPageInfo(page,size,count){
+        $.ajax({
+            url:"/user/page/onlineRecord",
+            type:"POST",
+            dataType:"json",
+            data:{page:page,size:size},
+            success:function (data) {
+                $("#list").text(JSON.stringify(data));
+            }
+        })
+    }
+
 </script>
 <script type="text/javascript">
     $(document).ready(function() {

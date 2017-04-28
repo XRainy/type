@@ -108,6 +108,7 @@ public class UserServiceImpl implements UserService{
             try {
                 outputStream.close();
             } catch (IOException e) {
+                logger.error("异常："+e.getMessage());
                 e.printStackTrace();
             }
         }

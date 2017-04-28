@@ -1,262 +1,170 @@
-2017-04-18 11:08:15,164 INFO  service.WebSocketService - 匹配中。。。
-2017-04-18 11:08:19,110 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 11:08:19,167 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nz8vxcmty3kkw|7bb2842, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nz8vxcmty3kkw|7bb2842, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-18 11:09:28,487 INFO  service.WebSocketService - 匹配中。。。
-2017-04-18 11:09:49,516 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 11:09:49,574 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nz8xhzs15pdmby|463f52b3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nz8xhzs15pdmby|463f52b3, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-18 11:10:00,711 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:10:58,304 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:11:22,588 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:11:37,858 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:12:22,501 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:13:39,926 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:15:43,866 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:16:21,577 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:16:44,929 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:19:15,073 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:20:12,675 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:22:31,192 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:42:40,198 INFO  service.WebSocketService - 匹配中。。。
-2017-04-18 11:42:55,451 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nza46vk3ta6x8|1331036c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nza46vk3ta6x8|1331036c, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-18 11:42:57,951 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:43:04,323 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:43:07,237 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:43:20,956 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:43:22,867 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:44:03,579 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:44:16,703 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:44:21,039 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:44:25,948 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:44:26,355 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:44:29,004 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:44:31,891 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:45:55,114 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:46:37,560 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:46:38,927 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:47:06,736 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:47:07,656 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:51:29,427 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:51:30,813 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:51:34,876 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:51:35,849 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:51:37,372 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:51:50,987 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:51:52,049 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 11:55:15,044 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 11:55:17,591 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:11:23,412 INFO  service.WebSocketService - 匹配中。。。
-2017-04-18 12:11:28,300 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:11:28,358 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nzb54ifyrdrgt|42c795c1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nzb54ifyrdrgt|42c795c1, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-18 12:11:30,348 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:13:42,830 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:13:43,856 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:15:20,119 INFO  service.WebSocketService - 匹配中。。。
-2017-04-18 12:15:33,505 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:15:33,560 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yyvrt9nzba739dg1evl|6666b3ac, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yyvrt9nzba739dg1evl|6666b3ac, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-18 12:15:36,173 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:19:09,981 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:19:49,770 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:20:32,350 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:20:34,539 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:21:40,386 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:21:41,918 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 12:52:36,857 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-18 12:52:40,848 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-18 12:52:42,184 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-18 12:52:43,712 INFO  interceptor.LoginInterceptor - 用户未登录需要登录！
-2017-04-18 12:59:41,436 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 12:59:43,673 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 13:00:08,846 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 13:00:10,452 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 13:00:41,142 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 13:00:42,717 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:34:50,792 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:34:55,315 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:37:15,849 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:37:29,109 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:38:28,826 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:39:44,416 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:39:47,681 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:40:23,386 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:40:24,948 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:40:27,158 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:40:59,352 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:41:00,898 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:41:11,581 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:41:13,783 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:41:15,976 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:41:59,593 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:02,551 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:06,305 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:08,363 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:11,274 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:26,633 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:30,396 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:44,671 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:44,767 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:44,768 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:44,837 INFO  websocket.WebsocketEndPoint - connect to the websocket success......
-2017-04-18 16:42:44,837 INFO  service.WebSocketService - 用户1就绪。。
-2017-04-18 16:42:57,172 INFO  websocket.WebsocketEndPoint - websocket connection closed......
-2017-04-18 16:42:58,794 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:58,849 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:58,879 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:42:58,890 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:43:06,322 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:43:17,168 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 16:43:19,913 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 16:43:31,427 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 16:43:33,123 INFO  controller.IndexController - login取得的用户名和密码为：null,null
-2017-04-18 16:43:48,110 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-18 16:43:50,481 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-18 16:43:52,014 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:40:04,668 INFO  service.WebSocketService - 匹配中。。。
-2017-04-23 08:40:20,454 INFO  service.WebSocketService - 匹配中。。。
-2017-04-23 08:40:34,694 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yy9z49n168sz0lwe66j3|3b45ea75, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yy9z49n168sz0lwe66j3|3b45ea75, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-23 08:42:56,515 INFO  service.WebSocketService - 匹配中。。。
-2017-04-23 08:43:19,975 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yy9z49n168wbbg1wfxi1w|2187c32d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yy9z49n168wbbg1wfxi1w|2187c32d, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-23 08:43:51,619 ERROR impl.UserServiceImpl - 
-### Error updating database.  Cause: java.sql.SQLException: Column count doesn't match value count at row 1
-### The error may involve com.type.mapper.user.UserDao.insert-Inline
-### The error occurred while setting parameters
-### SQL: INSERT INTO typeuser (userId,userName,password,record,createTime,email,gender,birthday,state,friendId)         VALUES (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?)
-### Cause: java.sql.SQLException: Column count doesn't match value count at row 1
-; bad SQL grammar []; nested exception is java.sql.SQLException: Column count doesn't match value count at row 1
-2017-04-23 08:46:49,408 INFO  service.WebSocketService - 匹配中。。。
-2017-04-23 08:46:55,124 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yy9z49n1691avhcnos7|5f85025d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yy9z49n1691avhcnos7|5f85025d, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-23 08:47:32,363 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
-2017-04-23 08:47:34,870 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:48:48,807 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:48:48,809 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:48:48,810 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908528810567.png
-2017-04-23 08:48:48,810 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:48:48,810 INFO  impl.UserServiceImpl - 2img/2017/04/231492908528810567.png
-2017-04-23 08:48:48,810 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492908528810567.png
-2017-04-23 08:48:48,816 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492908528810567.png"}
-2017-04-23 08:48:48,817 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908528817009.png
-2017-04-23 08:48:48,817 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:48:48,817 INFO  impl.UserServiceImpl - 2img/2017/04/231492908528817009.png
-2017-04-23 08:49:23,391 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:49:23,391 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:49:23,392 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908563392274.png
-2017-04-23 08:49:23,395 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:49:23,395 INFO  impl.UserServiceImpl - 2img/2017/04/231492908563392274.png
-2017-04-23 08:49:23,396 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492908563392274.png
-2017-04-23 08:49:23,398 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492908563392274.png"}
-2017-04-23 08:49:23,398 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908563398255.png
-2017-04-23 08:49:23,401 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:49:23,401 INFO  impl.UserServiceImpl - 2img/2017/04/231492908563398255.png
-2017-04-23 08:49:26,534 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:49:26,535 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:49:26,535 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:49:26,535 ERROR controller.HomePageController - 头像上传失败：null
-2017-04-23 08:49:26,535 INFO  controller.HomePageController - 图片返回值：{"error":"上传失败！"}
-2017-04-23 08:49:26,536 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:49:52,888 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:49:52,889 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:49:52,889 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908592889474.png
-2017-04-23 08:49:52,890 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:49:52,890 INFO  impl.UserServiceImpl - 2img/2017/04/231492908592889474.png
-2017-04-23 08:49:52,890 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492908592889474.png
-2017-04-23 08:49:52,894 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492908592889474.png"}
-2017-04-23 08:49:52,894 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908592894883.png
-2017-04-23 08:49:52,895 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:49:52,895 INFO  impl.UserServiceImpl - 2img/2017/04/231492908592894883.png
-2017-04-23 08:50:46,243 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:50:46,243 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:50:46,243 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:50:46,243 ERROR controller.HomePageController - 头像上传失败：null
-2017-04-23 08:50:46,244 INFO  controller.HomePageController - 图片返回值：{"error":"上传失败！"}
-2017-04-23 08:50:46,244 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:50:48,871 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
-2017-04-23 08:50:51,933 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:50:58,371 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:50:58,371 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:50:58,371 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908658371907.png
-2017-04-23 08:50:58,375 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:50:58,375 INFO  impl.UserServiceImpl - 2img/2017/04/231492908658371907.png
-2017-04-23 08:50:58,375 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492908658371907.png
-2017-04-23 08:50:58,377 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492908658371907.png"}
-2017-04-23 08:50:58,377 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908658377837.png
-2017-04-23 08:50:58,380 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:50:58,380 INFO  impl.UserServiceImpl - 2img/2017/04/231492908658377837.png
-2017-04-23 08:51:02,046 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:51:02,046 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:51:02,046 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:51:02,046 ERROR controller.HomePageController - 头像上传失败：null
-2017-04-23 08:51:02,047 INFO  controller.HomePageController - 图片返回值：{"error":"上传失败！"}
-2017-04-23 08:51:02,047 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:51:09,153 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:51:09,154 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:51:09,154 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908669154271.png
-2017-04-23 08:51:09,155 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:51:09,155 INFO  impl.UserServiceImpl - 2img/2017/04/231492908669154271.png
-2017-04-23 08:51:09,155 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492908669154271.png
-2017-04-23 08:51:09,157 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492908669154271.png"}
-2017-04-23 08:51:09,157 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492908669157237.png
-2017-04-23 08:51:09,158 INFO  impl.UserServiceImpl - 1
-2017-04-23 08:51:09,158 INFO  impl.UserServiceImpl - 2img/2017/04/231492908669157237.png
-2017-04-23 08:51:16,737 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:51:16,737 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 08:51:16,737 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:51:16,737 ERROR controller.HomePageController - 头像上传失败：null
-2017-04-23 08:51:16,738 INFO  controller.HomePageController - 图片返回值：{"error":"上传失败！"}
-2017-04-23 08:51:16,738 INFO  impl.UserServiceImpl - 文件为空
-2017-04-23 08:57:17,721 INFO  service.WebSocketService - 匹配中。。。
-2017-04-23 08:58:14,075 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yy9z49n169erqhqzagow|788afcdf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yy9z49n169erqhqzagow|788afcdf, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-04-23 08:58:18,343 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
-2017-04-23 08:58:20,746 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:58:46,831 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 08:58:48,463 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 08:59:05,140 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 08:59:06,387 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:02:20,921 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:02:23,480 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:03:33,931 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:03:39,433 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:04:25,775 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:04:27,229 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:05:20,742 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:05:23,148 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:06:31,793 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:06:34,248 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:09:39,935 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:09:42,214 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:15:53,329 INFO  controller.IndexController - login取得的用户名和密码为：222222,111
-2017-04-23 09:15:55,229 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:16:08,954 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
-2017-04-23 09:16:09,959 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:16:23,134 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:16:24,828 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:16:37,342 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:16:37,352 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 09:16:37,353 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910197353467.png
-2017-04-23 09:16:37,354 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:16:37,354 INFO  impl.UserServiceImpl - 2img/2017/04/231492910197353467.png
-2017-04-23 09:16:37,354 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492910197353467.png
-2017-04-23 09:16:37,359 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492910197353467.png"}
-2017-04-23 09:16:37,360 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910197360411.png
-2017-04-23 09:16:37,360 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:16:37,360 INFO  impl.UserServiceImpl - 2img/2017/04/231492910197360411.png
-2017-04-23 09:18:03,189 INFO  controller.IndexController - login取得的用户名和密码为：dd,d
-2017-04-23 09:18:09,485 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:18:14,451 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:18:14,452 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 09:18:14,452 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910294452039.png
-2017-04-23 09:18:14,456 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:18:14,456 INFO  impl.UserServiceImpl - 2img/2017/04/231492910294452039.png
-2017-04-23 09:18:14,456 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492910294452039.png
-2017-04-23 09:18:14,458 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492910294452039.png"}
-2017-04-23 09:18:14,459 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910294458724.png
-2017-04-23 09:18:14,463 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:18:14,463 INFO  impl.UserServiceImpl - 2img/2017/04/231492910294458724.png
-2017-04-23 09:18:29,501 INFO  interceptor.LoginInterceptor - 用户已经登录！
-2017-04-23 09:18:29,502 INFO  controller.HomePageController - webapp路径：/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/
-2017-04-23 09:18:29,502 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910309502818.png
-2017-04-23 09:18:29,503 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:18:29,503 INFO  impl.UserServiceImpl - 2img/2017/04/231492910309502818.png
-2017-04-23 09:18:29,503 INFO  controller.HomePageController - 相对路径为：/img/2017/04/23/1492910309502818.png
-2017-04-23 09:18:29,505 INFO  controller.HomePageController - 图片返回值：{"imgUrl":"/img/2017/04/23/1492910309502818.png"}
-2017-04-23 09:18:29,506 INFO  impl.UserServiceImpl - 最后路径:/Users/dx/java/workspace/type/type-manager/type-manager-web/src/main/webapp/img/2017/04/23/1492910309505824.png
-2017-04-23 09:18:29,506 INFO  impl.UserServiceImpl - 1
-2017-04-23 09:18:29,506 INFO  impl.UserServiceImpl - 2img/2017/04/231492910309505824.png
+2017-04-27 08:55:22,122 INFO  service.WebSocketService - 匹配中。。。
+2017-04-27 08:55:34,792 INFO  controller.IndexController - login取得的用户名和密码为：null,null
+2017-04-27 08:55:34,855 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yytwm9n1bz3pelvopd1w|11caed7d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yytwm9n1bz3pelvopd1w|11caed7d, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-27 08:55:44,117 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 08:56:07,945 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 08:56:25,381 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 08:57:54,612 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 08:58:07,326 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:11:27,118 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:12:10,857 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:12:17,879 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:12:17,882 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:12:18,749 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:12:18,752 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:12:40,647 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:12:51,366 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:13:11,544 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:13:14,614 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:13:33,933 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:13:33,938 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:18,214 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:15:24,080 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:24,082 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:26,054 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:26,057 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:26,757 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:26,760 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:27,356 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:27,359 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:28,724 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:28,726 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:29,331 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:29,333 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:29,842 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:29,845 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:46,526 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:46,529 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:47,205 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:47,208 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:47,556 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:47,559 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:47,859 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:47,862 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:15:50,387 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:15:50,390 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:17:20,502 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:27:57,408 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:27:57,593 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:27:57,595 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:28:10,130 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:28:10,283 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:28:10,285 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:29:09,167 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:29:09,396 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:29:09,399 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:30:30,398 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:30:30,582 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:30:30,583 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:40:28,890 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:40:29,068 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:40:29,070 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:43:30,971 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:43:31,162 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:43:31,164 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:44:54,668 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:44:54,800 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:44:54,802 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:47:17,513 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 09:47:17,662 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:47:17,664 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:47:20,354 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:47:20,355 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:47:23,474 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:47:23,476 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 09:47:24,238 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 09:47:24,240 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:13:50,790 INFO  service.WebSocketService - 匹配中。。。
+2017-04-27 10:13:56,513 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:13:56,579 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yytwm9n1c1wmlw12b4r95|6bf1ffe0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yytwm9n1c1wmlw12b4r95|6bf1ffe0, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-27 10:13:57,523 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:13:57,528 INFO  controller.HomePageController - 分页信息：size：nullpagenull
+2017-04-27 10:13:57,531 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:15:38,620 INFO  service.WebSocketService - 匹配中。。。
+2017-04-27 10:15:43,975 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:15:44,037 INFO  impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2yytwm9n1c1yxum1jgd1oz|31108eee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2yytwm9n1c1yxum1jgd1oz|31108eee, idleConnectionTestPeriod -> 60, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost:3306/type, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-04-27 10:15:44,982 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:15:44,987 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:15:44,990 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:16:00,756 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:16:00,757 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:16:00,759 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:20:47,975 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:20:48,189 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:20:48,190 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:20:48,194 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:20:54,005 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:20:54,006 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:20:54,009 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:21:29,200 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:21:29,200 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:21:29,203 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:21:30,770 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:21:30,770 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:21:30,773 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:21:35,085 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:21:35,085 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:21:35,087 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:24:47,413 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:24:47,597 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:24:47,598 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:24:47,599 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:24:50,921 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:24:50,921 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:24:50,923 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:25:25,217 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:25:25,218 INFO  controller.HomePageController - 分页信息：size：2pageNaN
+2017-04-27 10:25:25,220 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:27:57,579 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:27:57,740 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:27:57,740 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:27:57,742 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:04,074 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:04,075 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:04,080 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:06,142 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:06,142 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:28:06,144 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:07,468 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:07,469 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:07,471 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:19,156 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:19,157 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:28:19,159 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:21,664 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:21,665 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:21,667 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:33,130 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:33,131 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:28:33,133 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:35,782 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:35,782 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:35,785 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:36,915 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:36,916 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:28:36,918 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:37,770 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:37,771 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:37,773 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:38,386 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:38,386 INFO  controller.HomePageController - 分页信息：size：2page1
+2017-04-27 10:28:38,389 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:40,134 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:40,135 INFO  controller.HomePageController - 分页信息：size：2page2
+2017-04-27 10:28:40,137 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:51,965 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:51,966 INFO  controller.HomePageController - 分页信息：size：20page1
+2017-04-27 10:28:51,967 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:28:55,891 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:28:55,891 INFO  controller.HomePageController - 分页信息：size：15page1
+2017-04-27 10:28:55,893 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:29:05,379 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:29:05,379 INFO  controller.HomePageController - 分页信息：size：5page1
+2017-04-27 10:29:05,381 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:32:40,968 INFO  controller.IndexController - login取得的用户名和密码为：111111,1
+2017-04-27 10:32:41,140 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:32:41,141 INFO  controller.HomePageController - 分页信息：size：5page1
+2017-04-27 10:32:41,143 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}
+2017-04-27 10:32:57,220 INFO  interceptor.LoginInterceptor - 用户已经登录！
+2017-04-27 10:32:57,220 INFO  controller.HomePageController - 分页信息：size：15page1
+2017-04-27 10:32:57,222 INFO  controller.HomePageController - 用户信息：TypeUser{userId='149290844592822', userName='111111', password='1', record='{"a":0,"b":0,"c":0,"d":0,"e":0,"f":0,"g":0,"h":0,"i":0,"j":0,"k":0,"l":0,"m":0,"n":0,"o":0,"p":0,"q":0,"r":0,"s":0,"t":0,"u":0,"v":0,"w":0,"x":0,"y":0,"z":0}', createTime=Sun Apr 23 08:47:26 CST 2017, email='11@qq.com', state=1, friendId='null'}

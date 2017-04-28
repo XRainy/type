@@ -5,6 +5,8 @@ import com.type.controller.game.websocket.domain.UserMatch;
 import com.type.controller.game.websocket.domain.UserWebSocket;
 import com.type.controller.game.websocket.domain.WebSocketData;
 import com.type.controller.game.websocket.service.WebSocketService;
+import com.type.pojo.TypeUser;
+import com.type.service.user.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.socket.CloseStatus;
@@ -33,6 +35,8 @@ public class WebsocketEndPoint extends TextWebSocketHandler{
     private static Map<String,UserMatch> matchMap = new ConcurrentHashMap<String,UserMatch>();
     @Resource
     private WebSocketService webSocketService;
+    @Resource
+    private UserService userService;
 
     /**
      * 建立连接成功之后把用户会话存入userQueue
@@ -42,8 +46,11 @@ public class WebsocketEndPoint extends TextWebSocketHandler{
     public void afterConnectionEstablished(WebSocketSession session) {
         logger.info("connect to the websocket success......");
         Map map=session.getAttributes();
+        String userName = (String)map.get("userName");
         UserWebSocket userWebSocket = new UserWebSocket();
-        userWebSocket.setUserName((String)map.get("userName"));
+        userWebSocket.setUserName(userName);
+        TypeUser typeUser = userService.selectByName(userName);
+        userWebSocket.setUserId(typeUser.getUserId());
         userWebSocket.setState(1);
         userWebSocket.setSession(session);
         try {

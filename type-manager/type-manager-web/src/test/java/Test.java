@@ -1,13 +1,20 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.type.controller.HomePageController;
+import com.type.mapper.user.UserDao;
 import com.type.pojo.Record;
+import com.type.pojo.TypeUser;
 import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.File;
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -42,5 +49,18 @@ public class Test {
         String s=this.getClass().getResource("/").getPath();
         File file= new File("");
         System.out.println(s);
+    }
+    @org.junit.Test
+    public void testPageHelper(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+        UserDao userDao= applicationContext.getBean(UserDao.class);
+        PageHelper.startPage(1,2);
+        List<TypeUser> list = userDao.selectAll();
+        for(TypeUser t:list){
+            System.out.println(t);
+        }
+        PageInfo<TypeUser> pagInfo = new PageInfo<TypeUser>(list);
+        System.out.print(pagInfo.getTotal());
+
     }
 }

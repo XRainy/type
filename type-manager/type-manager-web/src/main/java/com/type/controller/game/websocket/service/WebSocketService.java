@@ -6,12 +6,16 @@ import com.type.controller.game.websocket.WebsocketEndPoint;
 import com.type.controller.game.websocket.domain.UserMatch;
 import com.type.controller.game.websocket.domain.UserWebSocket;
 import com.type.controller.game.websocket.domain.WebSocketData;
+import com.type.pojo.OnlineRecord;
+import com.type.service.user.OnlineRecordService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.Queue;
 import java.util.Random;
@@ -29,6 +33,13 @@ import java.util.concurrent.ConcurrentHashMap;
 public class WebSocketService{
     private static final Logger logger = LoggerFactory.getLogger(WebSocketService.class);
     private static Random random = new Random();
+    @Resource
+    private OnlineRecordService onlineRecordServiceTemp;
+    private static OnlineRecordService onlineRecordService;
+    @PostConstruct
+    public  void init(){
+        onlineRecordService = this.onlineRecordServiceTemp;
+    }
     //匹配用户
     public static void match(){
         BlockingQueue queue = WebsocketEndPoint.getUserQueue();
@@ -127,12 +138,28 @@ public class WebSocketService{
                             }
                             data.setScore(userMatch.getUserWebSocket2().getScore());
                             data.setOpponentScore(userMatch.getUserWebSocket1().getScore());
+                            message = new TextMessage(JsonUtils.getJsonString(data));
                             try {
                                 logger.info("发送信息："+data);
                                 userMatch.getUserWebSocket2().getSession().sendMessage(message);
                             } catch (IOException e) {
                                 logger.error(e.getMessage());
                             }
+                            //对战信息保存到数据库
+                            OnlineRecord onlineRecord = new OnlineRecord();
+                            onlineRecord.setOnlineRecordId(IDUtils.gengerateId());
+                            onlineRecord.setUserId1(userMatch.getUserWebSocket1().getUserId());
+                            onlineRecord.setUserId2(userMatch.getUserWebSocket2().getUserId());
+                            onlineRecord.setUserScore1(userMatch.getUserWebSocket1().getScore());
+                            onlineRecord.setUserScore2(userMatch.getUserWebSocket2().getScore());
+                            onlineRecord.setUserName1(userMatch.getUserWebSocket1().getUserName());
+                            onlineRecord.setUserName2(userMatch.getUserWebSocket2().getUserName());
+                            if(onlineRecordService.insert(onlineRecord)){
+                                logger.info("对战信息存储成功："+onlineRecord);
+                            }else {
+                                logger.info("队长信息存储失败！");
+                            }
+
                         }
 
                     }

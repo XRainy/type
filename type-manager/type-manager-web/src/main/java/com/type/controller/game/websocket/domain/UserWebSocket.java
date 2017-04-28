@@ -8,10 +8,19 @@ import org.springframework.web.socket.WebSocketSession;
  * 描述用户游戏交互
  */
 public class UserWebSocket {
+    private String userId;
     private String userName;//用户名
     private WebSocketSession session;//前后台会话通道
     private int state;//用户受否在匹配中1表示需要匹配，2表示正在游戏；
     private int score;//得分
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public String getUserName() {
         return userName;

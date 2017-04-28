@@ -2,6 +2,8 @@ package com.type.mapper.user;
 
 import com.type.pojo.TypeUser;
 
+import java.util.List;
+
 /**
  * @Author : dx
  * @Date : 2017/4/2
@@ -40,4 +42,10 @@ public interface UserDao {
      *
      */
     public void updateImg(TypeUser typeUser);
+
+    /**
+     *
+     * @return
+     */
+    public List<TypeUser> selectAll();
 }

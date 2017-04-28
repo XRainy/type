@@ -24,6 +24,9 @@
         SELECT userId,userName,password,record,createTime,email,gender,birthday,state,friendId,img
         FROM typeuser WHERE userId=#{userId}
     </select>
+    <select id="selectAll" resultType="com.type.pojo.TypeUser">
+        SELECT * FROM typeuser WHERE state=1
+    </select>
     <update id="updateById" parameterType="com.type.pojo.TypeUser">
         UPDATE typeuser
         SET email=#{email},gender=#{gender},birthday=#{birthday}
