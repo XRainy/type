@@ -156,9 +156,13 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="onlineGame">
-                    <div id="list"></div>
+                    <table id="list" class="table table-bordered table-hover">
+
+                    </table>
+
                     <div id="pageToolbar" name="12"></div>
                 </div>
+
                 <div class="tab-pane fade" id="selfGame">
                     <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
                     </p>
@@ -184,15 +188,22 @@
     $(function () { $("[data-toggle='tooltip']").tooltip(); });
 </script>
 <script>
+
     $(function () {
         var d;
         $.ajax({
             url:"/user/page/onlineRecord",
             type:"POST",
             dataType:"json",
-            data:{size:5,page:1},
+            data:{size:2,page:1},
             success:function (data) {
-                $("#list").text(JSON.stringify(data));
+                console.log(JSON.stringify(data));
+                var title = $("<thead><tr><th>玩家1</th><th>得分</th><th>玩家2</th><th>得分</th></tr></thead>");
+                $("#list").append(title);
+                for(var i = 0;i < data.size;i++){
+                    var message = $("<tr><<td>"+data.list[i].userName1+"</td><td>"+data.list[i].userScore1+"</td><td>"+data.list[i].userName2+"</td><td>"+data.list[i].userScore2+"</td>/tr>");
+                    $("#list").append(message);
+                }
                 d = $('#pageToolbar').Paging({
                     callback:function (page,size,count) {
                         console.log("page:"+page);
@@ -218,7 +229,13 @@
             dataType:"json",
             data:{page:page,size:size},
             success:function (data) {
-                $("#list").text(JSON.stringify(data));
+                $("#list").empty();
+                var title = $("<thead><tr><th>玩家1</th><th>得分</th><th>玩家2</th><th>得分</th></tr></thead>");
+                $("#list").append(title);
+                for(var i = 0;i < data.size;i++){
+                    var message = $("<tr><<td>"+data.list[i].userName1+"</td><td>"+data.list[i].userScore1+"</td><td>"+data.list[i].userName2+"</td><td>"+data.list[i].userScore2+"</td>/tr>");
+                    $("#list").append(message);
+                }
             }
         })
     }
@@ -270,7 +287,7 @@
             ajaxFileUpload();
         })
     })
-    //文件上传
+    //头像文件上传
     function ajaxFileUpload() {
         $.ajaxFileUpload
         (
