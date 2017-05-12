@@ -11,19 +11,19 @@ $(function () {
 //hkjjsadjkfgksgdfas
 
 //显示匹配中面板
-function createMatch() {
-        $("<div id = 'match'>匹配中。。。</div>").css({
-        position:"absolute",top:"-50%",bottom:0,right:0,left:0,
-        //background:"url(/type/sp1.png)",
-        width:500,height:350,backgroundSize:"400px 340px",
-        margin:"auto",
-        borderRadius:"5%",
-        backgroundSize:"contain no-repeat",
-        animation:"cg 0s linear"
-        }).appendTo("body");
-        $("#bgsound").attr("autostart","true");
-
-}
+// function createMatch() {
+//         $("<div id = 'match'>匹配中。。。</div>").css({
+//         position:"absolute",top:"-50%",bottom:0,right:0,left:0,
+//         //background:"url(/type/sp1.png)",
+//         width:500,height:350,backgroundSize:"400px 340px",
+//         margin:"auto",
+//         borderRadius:"5%",
+//         backgroundSize:"contain no-repeat",
+//         animation:"cg 0s linear"
+//         }).appendTo("body");
+//         $("#bgsound").attr("autostart","true");
+//
+// }
 
 //初始化游戏
 function createGame(){
@@ -126,7 +126,7 @@ function connect() {
             alert("目前游戏人数过多，请刷新页面重试！！！");
         }else if(webSocketData.state == 2){//降落字母
             if(webSocketData.letter=="start"){
-                $("#match").remove();
+                $("#bonfire-pageloader").remove();
                 createGame();
             }
             creatletter(webSocketData.letter);
