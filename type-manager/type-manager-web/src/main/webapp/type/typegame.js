@@ -5,6 +5,7 @@ function typegame(){
     this.check();
     this.creatScore();
     this.score=0;
+    this.total=0;
     this.stage=1;
     this.stage1=0;
    this.startGame();
@@ -46,7 +47,15 @@ typegame.prototype={
                value.el.remove()
             });
             that.objletter={};
+              $.ajax({
+                  url:"/type/selfRecord",
+                  data:{score:that.total},
+                  success:function(data){
+                      console.log(data);
+                  }
+              });
             that.createFail();
+
          }
         });
     this.objletter[randomletter]={start:left1-60,end:left1+60,keycode:randomnum,el:ele}
@@ -76,10 +85,11 @@ typegame.prototype={
              delete that.objletter[index];
              that.creatletter();
               that.score++;
-             $(".score").html(that.score);
+              that.total++;
+             $(".score").html(that.total);
               if(that.score>=that.stage*10){
                 that.score=0;
-                $(".score").html(0);
+                $(".score").html(that.total);
                 that.num++;
                 that.stage++;
                 $.each(that.objletter,function(index,value){
@@ -138,9 +148,10 @@ typegame.prototype={
       margin:"0 auto",cursor:"pointer",
       position:"absolute",right:0,left:0,margin:"auto",bottom:"70px"
     }).click(function(){
-     $(".scor").html(0);
-          that.palyGame(); 
-          $(this).parent().remove()
+     $(".score").html(0);
+        that.total=0;
+        that.palyGame();
+        $(this).parent().remove()
     });
     this.failbord=$("<div></div>").css({
      position:"absolute",top:"-50%",bottom:0,right:0,left:0,

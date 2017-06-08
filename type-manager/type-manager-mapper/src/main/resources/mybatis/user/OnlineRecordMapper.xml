@@ -15,5 +15,4 @@
     <select id="selectByUserId" resultType="com.type.pojo.OnlineRecord" parameterType="string">
         SELECT * FROM OnlineRecord WHERE userId1=#{userId} OR userId2=#{userId}
     </select>
-
 </mapper>

@@ -1,1 +1,14 @@
-2017-04-25 10:14:51,815 ERROR controller.HomePageController - 头像上传失败：null
+2017-06-08 14:39:03,805 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+2017-06-08 14:42:21,751 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
