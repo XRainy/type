@@ -67,7 +67,7 @@
                                         挑战自己极限
                                     </p>
                                     <p>
-                                        <a class="btn btn-primary" href="/type/selfGame">开始游戏</a>
+                                        <a class="btn btn-primary" href="/type/index.html">开始游戏</a>
                                     </p>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@
             url:"/user/page/onlineRecord",
             type:"POST",
             dataType:"json",
-            data:{size:2,page:1},
+            data:{size:5,page:1},
             success:function (data) {
                 console.log(JSON.stringify(data));
                 var title = $("<thead><tr><th>玩家1</th><th>得分</th><th>玩家2</th><th>得分</th></tr></thead>");
@@ -206,10 +206,6 @@
                 }
                 d = $('#pageToolbar').Paging({
                     callback:function (page,size,count) {
-                        console.log("page:"+page);
-                        console.log("size:"+size);
-                        console.log("count:"+count);
-                        console.log("===>>>"+JSON.stringify(d[0]));
                         getPageInfo(page,size,count);
                     },
                     pagesize: data.pageSize,
@@ -218,9 +214,6 @@
                 });
             }
         })
-
-       // alert($('#pageToolbar'));
-
     });
     function getPageInfo(page,size,count){
         $.ajax({

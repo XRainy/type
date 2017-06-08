@@ -134,11 +134,16 @@ function connect() {
             removeLetter(webSocketData);
         }else if(webSocketData.state==4){
             console.log("end");
+            console.log(JSON.stringify(webSocketData));
             $.each(objletter,function(index,value){
                 value.el.remove()
             });
-
             ws.close();
+            if(webSocketData.score<webSocketData.opponentScore){
+                zeroModal.error("失败了。。。");
+            } else {
+                zeroModal.success('胜利!');
+            }
         }
 
     };

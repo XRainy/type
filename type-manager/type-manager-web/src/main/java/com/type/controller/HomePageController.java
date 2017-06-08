@@ -31,7 +31,10 @@ public class HomePageController {
     UserService userService;
     @Resource
     OnlineRecordService onlineRecordService;
-
+    @RequestMapping("/homepage")
+    public String goToHomePage(){
+        return "forward:/WEB-INF/user/page/homepage.jsp";
+    }
     /**
      * 获取个人信息
      * @param model

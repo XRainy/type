@@ -4,8 +4,9 @@
 <head>
     <title>金山在线打字通</title>
     <link rel="stylesheet" type="text/css" href="/static/css/pageloader.css">
-    <script src="/type/jquery.js"></script>
-    <script src="/type/onlinetypegame.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/dialog/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/static/dialog/css/htmleaf-demo.css">
+    <link rel="stylesheet" type="text/css" href="/static/dialog/css/zeroModal.css" />
     <style>
         html,body{
             height:100%;
@@ -79,11 +80,17 @@
 			 M188.482,131.649c14.352-8.286,19.266-26.633,10.982-40.982c-8.285-14.348-26.631-19.264-40.982-10.98
 			c-14.346,8.285-19.264,26.633-10.98,40.982C155.787,135.017,174.137,139.932,188.482,131.649z"/>
 		</svg>
-        <h1 style="text-align: center;color:#fff;">匹配中。。。</h1>
+        <h5 style="text-align: center;color:#fff;width: 110px">匹配中。。。</h5>
     </div>
 </div>
 <div class="screen1">
 </div>
 <embed src="/static/sound/bgsound.mp3" autostart="false" loop="-1" controls="ControlPanel" width="100" height="100" id="bgsound">
 </body>
+<script src="/type/jquery.js"></script>
+<%--<script src="/static/dialog/js/zepto.min.js"></script>--%>
+<%--<script src="/static/dialog/js/dialog.js"></script>--%>
+<%--<script src="/static/dialog/js/example.js"></script>--%>
+<script src="/static/dialog/js/zeroModal.js"></script>
+<script src="/type/onlinetypegame.js"></script>
 </html>
