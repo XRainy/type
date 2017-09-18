@@ -12,3 +12,31 @@
 ### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?
 ### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
 ; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+2017-06-08 15:20:39,438 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+; SQL []; Duplicate entry '149290844592822' for key 'userId_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+2017-06-08 15:20:55,014 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+; SQL []; Duplicate entry '149290844592822' for key 'userId_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+2017-06-08 15:21:37,069 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+; SQL []; Duplicate entry '149290844592822' for key 'userId_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+2017-06-08 15:24:24,745 ERROR impl.OnlineRecordServiceImpl - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+### The error may involve com.type.mapper.user.SelfRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO SelfRecord (selfRecordId,userId,userName,score,createTime)         VALUES (         ?,         ?,         ?,         ?,         ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'
+; SQL []; Duplicate entry '149290844592822' for key 'userId_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '149290844592822' for key 'userId_UNIQUE'

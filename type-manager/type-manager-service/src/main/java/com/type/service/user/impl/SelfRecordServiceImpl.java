@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.type.mapper.user.SelfRecordDao;
 import com.type.pojo.SelfRecord;
 import com.type.service.user.SelfRecordService;
+import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -41,6 +42,11 @@ public class SelfRecordServiceImpl implements SelfRecordService{
         PageHelper.startPage(Integer.parseInt(page),Integer.parseInt(size));
         List<SelfRecord> list = selfRecordDao.selectByUserId(userId);
         PageInfo<SelfRecord> pageInfo = new PageInfo<SelfRecord>(list);
+        for(SelfRecord selfReocord:pageInfo.getList()){
+            DateTime dateTime = new DateTime(selfReocord.getCreateTime().getTime());
+            selfReocord.setCreateTimeString(dateTime.toString("yyyy/MM/dd HH:mm:ss"));
+            logger.info("时间："+dateTime.toString("yyyy/MM/dd HH:mm:ss"));
+        }
         return pageInfo;
     }
 }

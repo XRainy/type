@@ -164,8 +164,10 @@
                 </div>
 
                 <div class="tab-pane fade" id="selfGame">
-                    <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
-                    </p>
+                    <table id="selfRecordlist" class="table table-bordered table-hover">
+
+                    </table>
+                    <div id="selfRecordpageToolbar" name="12"></div>
                 </div>
             </div>
         </div>
@@ -192,6 +194,52 @@
     $(function () {
         var d;
         $.ajax({
+            url:"/user/page/selfRecord",
+            type:"POST",
+            dataType:"json",
+            data:{size:5,page:1},
+            success:function (data) {
+                console.log(JSON.stringify(data));
+                var title = $("<thead><tr><th>玩家</th><th>得分</th><th>时间</th></tr></thead>");
+                $("#selfRecordlist").append(title);
+                for(var i = 0;i < data.size;i++){
+                    var message = $("<tr><<td>"+data.list[i].userName+"</td><td>"+data.list[i].score+"</td><td>"+data.list[i].createTimeString+"</td></tr>");
+                    $("#selfRecordlist").append(message);
+                }
+                d = $('#selfRecordpageToolbar').Paging({
+                    callback:function (page,size,count) {
+                        getPageInfo(page,size,count);
+                    },
+                    pagesize: data.pageSize,
+                    count: data.total,
+                    toolbar: true,
+                });
+            }
+        })
+    });
+    function getPageInfo(page,size,count){
+        $.ajax({
+            url:"/user/page/selfRecord",
+            type:"POST",
+            dataType:"json",
+            data:{page:page,size:size},
+            success:function (data) {
+                $("#selfRecordlist").empty();
+                var title = $("<thead><tr><th>玩家</th><th>得分</th><th>时间</th></tr></thead>");
+                $("#selfRecordlist").append(title);
+                for(var i = 0;i < data.size;i++){
+                    var message = $("<tr><<td>"+data.list[i].userName+"</td><td>"+data.list[i].score+"</td><td>"+data.list[i].createTimeString+"</td></tr>");
+                    $("#selfRecordlist").append(message);
+                }
+            }
+        })
+    }
+
+</script>
+<script>
+    $(function () {
+        var dd;
+        $.ajax({
             url:"/user/page/onlineRecord",
             type:"POST",
             dataType:"json",
@@ -204,7 +252,7 @@
                     var message = $("<tr><<td>"+data.list[i].userName1+"</td><td>"+data.list[i].userScore1+"</td><td>"+data.list[i].userName2+"</td><td>"+data.list[i].userScore2+"</td>/tr>");
                     $("#list").append(message);
                 }
-                d = $('#pageToolbar').Paging({
+                dd = $('#pageToolbar').Paging({
                     callback:function (page,size,count) {
                         getPageInfo(page,size,count);
                     },

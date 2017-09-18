@@ -3,8 +3,10 @@ package com.type.controller;
 import com.github.pagehelper.PageInfo;
 import com.type.common.JsonUtils;
 import com.type.pojo.OnlineRecord;
+import com.type.pojo.SelfRecord;
 import com.type.pojo.TypeUser;
 import com.type.service.user.OnlineRecordService;
+import com.type.service.user.SelfRecordService;
 import com.type.service.user.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +33,8 @@ public class HomePageController {
     UserService userService;
     @Resource
     OnlineRecordService onlineRecordService;
+    @Resource
+    SelfRecordService selfRecordService;
     @RequestMapping("/homepage")
     public String goToHomePage(){
         return "forward:/WEB-INF/user/page/homepage.jsp";
@@ -91,6 +95,16 @@ public class HomePageController {
         TypeUser typeUser = userService.selectByName(userName);
         logger.info("用户信息："+typeUser);
         PageInfo<OnlineRecord> pageInfo = onlineRecordService.selectPageByUserId(typeUser.getUserId(),page,size);
+        return JsonUtils.getJsonString(pageInfo);
+    }
+    @RequestMapping("/selfRecord")
+    @ResponseBody
+    public String selfRecord(HttpServletRequest request,String size,String page){
+        logger.info("分页信息：size："+size+"page"+page);
+        String userName = (String) request.getSession().getAttribute("userName");
+        TypeUser typeUser = userService.selectByName(userName);
+        logger.info("用户信息："+typeUser);
+        PageInfo<SelfRecord> pageInfo = selfRecordService.selectPageByUserId(typeUser.getUserId(),page,size);
         return JsonUtils.getJsonString(pageInfo);
     }
 }

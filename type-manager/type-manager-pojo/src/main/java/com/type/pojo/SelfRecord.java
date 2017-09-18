@@ -13,6 +13,7 @@ public class SelfRecord {
     private String userName;
     private Integer score;
     private Date createTime;
+    private String createTimeString;
 
     public String getSelfRecordId() {
         return selfRecordId;
@@ -52,5 +53,13 @@ public class SelfRecord {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public String getCreateTimeString() {
+        return createTimeString;
+    }
+
+    public void setCreateTimeString(String createTimeString) {
+        this.createTimeString = createTimeString;
     }
 }
